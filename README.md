@@ -1,6 +1,7 @@
 # Shape Up: Classifying Geometric Patterns with CNNs
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*vkQ0hXDaQv57sALXAJquxA.jpeg)
+__Image credit to [A Comprehensive Guide to Convolutional Neural Networks](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)__
 
 ## What is a Convolutional Neural Network (CNN)?
 
