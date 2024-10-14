@@ -1,5 +1,7 @@
 # Shape Up: Classifying Geometric Patterns with CNNs
 
+![](https://miro.medium.com/v2/resize:fit:1400/1*vkQ0hXDaQv57sALXAJquxA.jpeg)
+
 ## What is a Convolutional Neural Network (CNN)?
 
 A Convolutional Neural Network (CNN) is a powerful type of neural network designed to process grid-like data, such as images. CNNs are particularly well-suited for image recognition tasks because they can automatically detect hierarchical features (edges, textures, objects) within an image.
