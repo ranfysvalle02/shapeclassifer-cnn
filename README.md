@@ -1,6 +1,7 @@
 # Shape Up: Classifying Geometric Patterns with CNNs
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*vkQ0hXDaQv57sALXAJquxA.jpeg)
+
 __Image credit to [A Comprehensive Guide to Convolutional Neural Networks](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)__
 
 ## What is a Convolutional Neural Network (CNN)?
@@ -48,6 +49,7 @@ In our model, the first convolutional layer (`conv1`) uses 32 filters, and the s
 ### 2. Activation Function: Introducing Non-linearity
 
 ![](https://b2633864.smushcdn.com/2633864/wp-content/uploads/2021/05/relu_activation.png?lossy=2&strip=1&webp=1)
+
 __Image credit to [Convolutional Neural Networks (CNNs) and Layer Types](https://pyimagesearch.com/2021/05/14/convolutional-neural-networks-cnns-and-layer-types/)__
 
 After the convolution operation, we apply an **activation function** to introduce non-linearity. In our case, we use the **ReLU (Rectified Linear Unit)** activation function, which ensures the network can learn complex patterns. ReLU works by zeroing out negative values in the feature maps while keeping positive values unchanged. This helps the model focus on significant features while ignoring less important ones.
