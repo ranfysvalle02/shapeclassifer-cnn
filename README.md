@@ -1,4 +1,4 @@
-# Learning Shape Classification from Scratch using a Convolutional Neural Network
+# Shape Up: Classifying Geometric Patterns with CNNs
 
 ## What is a Convolutional Neural Network (CNN)?
 
