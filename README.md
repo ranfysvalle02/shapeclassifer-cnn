@@ -1,4 +1,4 @@
-# shapeclassifer-cnn: Learning Shape Classification from Scratch using a Convolutional Neural Network
+# Learning Shape Classification from Scratch using a Convolutional Neural Network
 
 ## What is a Convolutional Neural Network (CNN)?
 
