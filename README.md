@@ -12,7 +12,7 @@ After the convolutional layers, the data is flattened and passed through one or 
 
 A **fully connected (dense) layer** connects every neuron in one layer to every neuron in the next layer, creating a dense matrix of weights. The number of parameters is a function of the number of input and output neurons.
 
-CNNs consist of multiple layers, including **convolutional layers**, which apply filters to the input, detecting specific features such as edges or corners. Afterward, the output from these layers—known as **feature maps**—is passed through **pooling layers** and finally **fully connected layers**, which use the detected features to make a prediction or classification.
+CNNs consist of multiple layers, including **convolutional layers**, which apply filters to the input. Afterward, the output from these layers—known as **feature maps**—is passed through **pooling layers** and finally **fully connected layers**, which use the detected features to make a prediction or classification.
 
 ## Understanding Model Parameters
 
