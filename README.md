@@ -55,6 +55,10 @@ For example:
 
 ### 3. Pooling: Reducing Dimensionality
 
+![](https://media.geeksforgeeks.org/wp-content/uploads/20190721025744/Screenshot-2019-07-21-at-2.57.13-AM.png)
+__Image credit to [CNN | Introduction to Pooling Layer](https://www.geeksforgeeks.org/cnn-introduction-to-pooling-layer/)__
+
+
 After each convolution and ReLU activation, we perform **max pooling**. Pooling layers downsample the feature maps, reducing the spatial size while retaining the most important information. In max pooling, we slide a window (e.g., 2x2) across the feature map and take the maximum value from each window.
 
 This process:
