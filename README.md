@@ -69,9 +69,7 @@ After the final convolutional and pooling layers, we **flatten** the feature map
 
 In our `SimpleShapeClassifier`, the input to the fully connected layer (`fc1`) is a flattened version of the output from the second pooling layer. This transforms the 3D feature map (with dimensions 64 x 64 x 64) into a 1D vector of length 262,144 (64 * 64 * 64), which is then passed through the dense layer for classification.
 
----
-
-### Why These Transformations Matter
+## Why These Transformations Matter
 
 These transformations enable the model to learn and extract hierarchical features from the input data. Initially, the convolutional layers capture low-level features (such as edges and simple shapes), and as the data progresses through deeper layers, the model learns more complex patterns (such as entire shapes or objects).
 
@@ -87,7 +85,7 @@ In machine learning, particularly in neural networks, parameters are the interna
 
 In our `SimpleShapeClassifier` model, we have a large number of parameters - approximately 33.6 million. This might seem like a lot, but it's primarily due to the fully connected layer (`fc1`) in our network.
 
-### Fully Connected Layer and Parameters
+## Fully Connected Layer and Parameters
 
 A fully connected layer, also known as a dense layer, is a layer in which each neuron is connected to every neuron in the previous layer. This results in a large number of parameters, specifically, the number of parameters in a fully connected layer is equal to the product of the number of input neurons and the number of output neurons.
 
@@ -95,7 +93,7 @@ In our case, the fully connected layer (`fc1`) is transforming a flattened versi
 
 This might seem excessive, but this is common in CNNs, especially when transitioning from convolutional layers to dense layers, which require a large number of connections.
 
-### What Does This Mean?
+## What Does This Mean?
 
 The large number of parameters gives our model a high learning capacity. This means it can learn complex patterns from the data, which is beneficial for tasks like image classification where the input data (images) can contain complex and varied patterns.
 
