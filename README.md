@@ -16,7 +16,7 @@ CNNs consist of multiple layers, including **convolutional layers**, which apply
 
 Layers are the fundamental building blocks of any neural network, and their configuration determines the network's ability to learn and generalize from data. In a Convolutional Neural Network (CNN), different types of layers serve different purposes:
 
-- **Convolutional Layers**: These layers apply filters (kernels) to the input data to detect specific features like edges, shapes, or textures. The filters slide across the input image, performing element-wise multiplications and creating feature maps. Each layer's filters capture more complex features as we move deeper into the network.
+- **Convolutional Layers**: These layers apply filters (kernels) to the input data to detect specific features like edges, shapes, or textures. Kernels in Convolutional Neural Networks (CNNs) are small, learnable matrices that are applied to the input data (typically images) to extract features. Think of a kernel as a small, specialized detector. It's designed to identify a particular feature within the image, such as an edge, corner, or texture. The filters slide across the input image, performing element-wise multiplications and creating feature maps. Each layer's filters capture more complex features as we move deeper into the network.
   
 - **Pooling Layers**: After the convolutional layers, pooling layers are used to reduce the spatial dimensions of the feature maps. This not only decreases computational requirements but also helps prevent overfitting by summarizing the features. Max pooling, the most common type, selects the largest value in a window of the feature map, preserving important information while discarding irrelevant details.
 
