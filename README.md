@@ -24,7 +24,9 @@ In our `SimpleShapeClassifier` model, we have a large number of parameters - app
 
 A fully connected layer, also known as a dense layer, is a layer in which each neuron is connected to every neuron in the previous layer. This results in a large number of parameters, specifically, the number of parameters in a fully connected layer is equal to the product of the number of input neurons and the number of output neurons.
 
-In our case, the fully connected layer (`fc1`) is transforming a flattened version of the output from the previous layer (which has a size of 64 * 64 * 64 = 262,144 neurons) into a layer with 128 neurons. This results in 262,144 (input neurons) * 128 (output neurons) = 33,554,432 parameters. This is approximately 33.6M parameters.
+In our case, the fully connected layer (`fc1`) is transforming a flattened version of the output from the previous layer (which has a size of 64 * 64 * 64 = 262,144 neurons) into a layer with 128 neurons. This results in 262,144 (input neurons) * 128 (output neurons) = approximately 33.6M parameters.
+
+This might seem excessive, but this is common in CNNs, especially when transitioning from convolutional layers to dense layers, which require a large number of connections.
 
 ### What Does This Mean?
 
