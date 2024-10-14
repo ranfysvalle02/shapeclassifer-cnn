@@ -67,7 +67,6 @@ For example:
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20190721025744/Screenshot-2019-07-21-at-2.57.13-AM.png)
 __Image credit to [CNN | Introduction to Pooling Layer](https://www.geeksforgeeks.org/cnn-introduction-to-pooling-layer/)__
 
-
 After each convolution and ReLU activation, we perform **max pooling**. Pooling layers downsample the feature maps, reducing the spatial size while retaining the most important information. In max pooling, we slide a window (e.g., 2x2) across the feature map and take the maximum value from each window.
 
 This process:
@@ -78,6 +77,10 @@ This process:
 In our model, after each convolutional layer, we apply max pooling with a 2x2 window, halving the spatial dimensions of the feature maps. This transformation allows the CNN to focus on the most prominent features while discarding unnecessary detail.
 
 ### 4. Flattening: Preparing for Fully Connected Layers
+
+![](https://indiantechwarrior.com/wp-content/uploads/2023/08/Hidden-Layer-1-1024x603-min.jpg)
+
+__Image credit to [Fully Connected Layers in Convolutional Neural Networks](https://indiantechwarrior.com/fully-connected-layers-in-convolutional-neural-networks/)__
 
 After the final convolutional and pooling layers, we **flatten** the feature maps into a 1D vector before passing them to the fully connected (dense) layers. This vector contains all the learned features from the image, which the fully connected layers use to make the final classification.
 
