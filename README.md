@@ -37,6 +37,10 @@ In Convolutional Neural Networks (CNNs), the transformations applied in the conv
 
 ### 1. Convolutions: Learning Features
 
+![](https://miro.medium.com/v2/resize:fit:919/1*tNQvssqUaiYteDpREHQyFw.png)
+
+__Image credit to [All about convolutions, kernels, features in CNN](https://medium.com/@abhishekjainindore24/all-about-convolutions-kernels-features-in-cnn-c656616390a1)__
+
 The primary operation in a CNN is **convolution**. In our `SimpleShapeClassifier`, we used two convolutional layers (`conv1` and `conv2`), each of which applies a set of filters (also known as kernels) to the input image. These filters are responsible for detecting patterns like edges, corners, and textures in the data.
 
 When a convolution operation is applied:
